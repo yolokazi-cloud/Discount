@@ -1,0 +1,155 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+   background-color:aliceblue;
+}
+
+.top-header h4{
+    font-style: none;
+    font-display: none;
+}
+
+
+.top-header h1{
+    color: black ;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    color: rgb(118, 111, 111);
+    font-weight: bold;
+
+}
+header{
+    color: black;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.container{
+    height:90vh;
+    width:40%;
+    position: absolute;
+    top:5%;
+    left:32%;
+    align-items: center;
+    border-radius: 7px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 2px 2px whitesmoke;
+}
+.input-field p{
+   font-size: 14px;
+   padding-bottom: 0px;
+   margin-left: 10px;
+   color: grey;
+}
+.input-field input[type=number]{
+    border-radius: 100px;
+    width:320px;
+    height:20px;
+    outline: none;
+    border: 1px solid gray;
+    padding:10px 10px 10px 10px;
+    margin-bottom:15px;
+    
+}
+.left input[type=checkbox]{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: none;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+.left label{
+    margin-bottom: 30px;
+    
+}
+.checkelig button{
+    border-radius: 100px;
+    background-color:aliceblue;
+    width:340px;
+    height:40px;
+    padding:10px;
+    margin-bottom:15px;
+    margin-bottom: 15px;
+    outline-color: 1px gray;
+    border: 1px solid gray;
+}
+.left{
+    margin: 10px;
+}
+.container #txteligible{
+    border: none;
+  
+}
+@media only screen and (max-width:400px){
+    .container{
+        height:90vh;
+        width:120%;
+        align-items: center;
+        position: relative;
+        left:5%;
+        top:2%;
+        right:10%;
+        bottom:2%;
+        
+    }
+    .checkelig button{
+       
+        width:160px;
+        height:40px;
+        padding:1px;
+        margin-bottom:5px;
+        margin-bottom: 5px;
+       
+    }
+    .input-field input[type=number]{
+        width:150px;
+        height:20px;
+        margin-bottom:15px;
+        
+    }
+    .top-header h1{
+       text-align: center;
+}
+.container #txteligible{
+    width:150px;
+    height:20px;
+  
+}
+}
+@media only screen and (max-width:800px){
+    .container{
+        height:90vh;
+        width:80%;
+        align-items: center;
+        position: relative;
+        left:5%;
+        top:2%;
+        right:10%;
+        bottom:2%;
+        
+    }
+    
+}
+@media only screen and (max-width:300px){
+    .container{
+        height:90vh;
+        width:100%;
+        align-items: center;
+        position: relative;
+        left:0%;
+        top:0%;
+        right:0%;
+        bottom:0%;
+        
+    }
+    
+}
